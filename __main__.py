@@ -8,8 +8,6 @@ def alert(text):
     msg.setWindowTitle('Alert')
     msg.setText(text)
 
-alert("What in the Hell are you doing!")
-
 
 class Gui:
     def __init__(self):
@@ -22,3 +20,7 @@ class Gui:
         self.add_links_win()
         self.settings_win()
         sys.exit(app.exec_())
+
+
+Gui()
+alert("What in the Hell are you doing!")
